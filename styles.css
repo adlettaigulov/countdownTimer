@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("new-year.jpg");
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: "Poppins", sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+p {
+	font-size: 5rem;
+	font-weight: 700;
+	line-height: 1;
+	margin: 0 2rem;
+}
+
+span {
+	font-size: 1rem;
+}
+
+.countdown-timer {
+	display: flex;
+}
