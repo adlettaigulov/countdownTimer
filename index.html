@@ -3,31 +3,51 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Countdown Timer</title>
-		<link rel="stylesheet" href="styles.css" />
+		<title>Виткорина</title>
+		<link rel="stylesheet" href="css/styles.css" />
 	</head>
 	<body>
-		<div class="container">
-			<h1>До нового года осталось:</h1>
-			<div class="countdown-timer">
-				<div class="days">
-					<p id="days">0</p>
-					<span>дней</span>
-				</div>
-				<div class="hours">
-					<p id="hours">0</p>
-					<span>часов</span>
-				</div>
-				<div class="minutes">
-					<p id="minutes">0</p>
-					<span>минут</span>
-				</div>
-				<div class="seconds">
-					<p id="seconds">0</p>
-					<span>секунд</span>
-				</div>
+		<div class="quiz-container">
+			<div class="quiz-header">
+				<h2 id="question">Вопрос</h2>
+				<ul>
+					<li>
+						<input
+							type="radio"
+							id="a"
+							name="answer"
+							class="answer"
+						/><label id="first_answer" for="a">Question</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							id="b"
+							name="answer"
+							class="answer"
+						/><label id="second_answer" for="b">Question</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							id="c"
+							name="answer"
+							class="answer"
+						/><label id="third_answer" for="c">Question</label>
+					</li>
+					<li>
+						<input
+							type="radio"
+							id="d"
+							name="answer"
+							class="answer"
+						/><label id="fourth_answer" for="d">Question</label>
+					</li>
+				</ul>
 			</div>
+			<div class="score-result"></div>
+			<button class="quiz-submit">Принять</button>
 		</div>
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 	</body>
 </html>
